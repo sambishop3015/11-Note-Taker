@@ -2,7 +2,7 @@
 This application can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file. 
 
 <p align="center">
-    <img width="485px" src="README/LandingPage.png">
+    <img width="485px" src="README/LandingPage.PNG">
 </p>
 
 ## Table of Contents:
