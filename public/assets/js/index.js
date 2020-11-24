@@ -1,3 +1,4 @@
+// Selections from HTML --------------------------------------
 const $noteTitle = $(".note-title");
 const $noteText = $(".note-textarea");
 const $saveNoteBtn = $(".save-note");
@@ -7,6 +8,8 @@ const $noteList = $(".list-container .list-group");
 
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
+
+// Functions -------------------------------------------------
 
 // A function for getting all notes from the db
 const getNotes = () => {
@@ -146,6 +149,7 @@ const getAndRenderNotes = () => {
   return getNotes().then(renderNoteList);
 };
 
+// Event Listeners ---------------------------------------------
 $saveNoteBtn.on("click", handleNoteSave);
 $noteList.on("click", ".list-group-item", handleNoteView);
 $newNoteBtn.on("click", handleNewNoteView);
