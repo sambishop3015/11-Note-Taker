@@ -2,7 +2,7 @@
 This application can be used to write, save, and delete notes. It uses an express backend and saves and retrieves note data from a JSON file. 
 
 <p align="center">
-    <img width="485px" src="README/LandingPage.PNG">
+    <img width="90%" src="README/LandingPage.PNG">
 </p>
 
 ## Table of Contents:
@@ -19,7 +19,7 @@ In order to install the necessary dependencies, open the console and run the fol
 The notes are saved virtually. No note data is actually saved in the local JSON db (database) file. 
 
 <p align="center">
-    <img width="485px" src="README/GIFDemo.gif">
+    <img width="90%" src="README/GIFDemo.gif">
 </p>
 
 ### License:
